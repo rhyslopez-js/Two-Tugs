@@ -1,0 +1,274 @@
+body{
+    background-color: #181818 !important;
+}
+
+.navbar{
+    background-color: #181818;
+    padding: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+.yellow-hover:hover{
+    color: #E5C078 !important;
+
+}
+
+.contactbutton{
+    padding: 5px 15px 5px 15px !important;
+    background-color: #A0BA72;
+    border-radius: 10px;
+}
+
+.contact{
+    margin-top: 5px !important;
+}
+
+.body-wrapper{
+    padding: 0px 300px 0px 300px;
+}
+
+.about-banner-wrapper{
+    min-height: 30vh;
+    background-image: url('images/about-first-banner.jpg');
+    background-size: 100%;
+    background-position: center;
+}
+
+.two-tugs-heading{
+    margin-top: 50px;
+    text-align: center;
+    color: #E5C078;
+    margin-bottom: 50px;
+}
+
+/* Two Tugs CEO Pictures */
+
+.ceo-wrapper{
+    position: relative;
+}
+
+.ceo-headshot{
+    min-height: 75vh;
+}
+
+#ceo-headshot-1{
+    background-image: url('images/ceo-headshot-1.jpg');
+    background-size: 100%;
+    filter: brightness(70%);
+}
+
+#ceo-headshot-2{
+    background-image: url('images/ceo-headshot-2.jpg');
+    background-size: 110%;
+    background-position: center;
+    filter: brightness(70%);
+}
+
+.ceo-details-wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ceo-details{
+    text-align: center;
+    width: 15vw;
+}
+
+.ceo-name{
+    color: #E5C078;
+}
+
+/* About Us 2nd Banner */
+
+.about-banner2-wrapper{
+    margin-top: 50px;
+    position: relative;
+}
+
+.about-banner2-img{
+    min-height: 50vh;
+    background-image: url('images/about-banner2.jpg');
+    background-position: center;
+    background-size: 100%;   
+    filter: brightness(70%); 
+}
+
+.about2-details-wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about2-details{
+    text-align: center;
+    width: 15vw;
+}
+
+/* OUR TEAM */
+
+.staff-img{
+    min-height: 30vh;
+    margin-bottom: 50px;
+}
+
+#staff-img-1{
+    background-image: url('images/headshot-1.jpg');
+    background-size: 150%;
+    background-position: center;
+}
+
+#staff-img-1{
+    background-image: url('images/headshot-1.jpg');
+    background-size: 150%;
+    background-position: center;
+}
+
+#staff-img-2{
+    background-image: url('images/headshot-2.jpg');
+    background-size: 160%;
+    background-position-x: center;
+    background-position-y: 69%;
+}
+
+#staff-img-3{
+    background-image: url('images/headshot-3.jpg');
+    background-size: 250%;
+    background-position: center;
+}
+
+#staff-img-4{
+    background-image: url('images/headshot-4.jpg');
+    background-size: 250%;
+    background-position: center;
+}
+
+#staff-img-5{
+    background-image: url('images/headshot-5.jpg');
+    background-size: 100%;
+    background-position-x: center;
+}
+
+#staff-img-6{
+    background-image: url('images/headshot-6.jpg');
+    background-size: 220%;
+    background-position-x: center;
+    background-position-y: 20% ;
+}
+
+#staff-img-7{
+    background-image: url('images/headshot-7.jpg');
+    background-size: 260%;
+    background-position-x: 30%;
+    background-position-y: 20%;
+}
+
+#staff-img-8{
+    background-image: url('images/headshot-8.jpg');
+    background-size: 170%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#staff-img-9{
+    background-image: url('images/headshot-9.jpg');
+    background-size: 110%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#staff-img-10{
+    background-image: url('images/headshot-10.jpg');
+    background-size: 110%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#staff-img-11{
+    background-image: url('images/headshot-11.jpg');
+    background-size: 150%;
+    background-position-x: 70%;
+    background-position-y: 80%;
+}
+
+#staff-img-12{
+    background-image: url('images/headshot-12.jpg');
+    background-size: 350%;
+    background-position-x: 40%;
+    background-position-y: 70%;
+}
+
+/* Staff quotes */
+
+.staff-quote-container{
+    min-height: 10vh;
+    width: 30vw;
+    color: white;
+    font-style: italic;
+}
+
+.staff-quote-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    background-color: #1f1f1f;
+    min-height: 30vh;
+    padding: 50px;
+    margin-top: 200px;
+
+}
+
+.footer-container{
+    /* border: solid white 1px; */
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-ul{
+    list-style: none;
+    margin: 25px;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-links:hover{
+    color: #A0BA72;
+}
+
+.line{
+    border: 1px solid white;
+    min-height: 100%;
+}
+
+.copyright{
+    color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.contactbutton:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #E5C078;
+}

@@ -1,0 +1,250 @@
+body{
+    background-color: #181818 !important;
+}
+
+.navbar{
+    background: transparent;
+    padding: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+.yellow-hover:hover{
+    color: #E5C078 !important;
+
+}
+
+.contactbutton{
+    padding: 5px 15px 5px 15px !important;
+    background-color: #A0BA72;
+    border-radius: 10px;
+}
+
+.contact{
+    margin-top: 5px !important;
+}
+
+.contactbutton:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #E5C078;
+}
+
+.hero-video{
+    min-height: 100vh;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+
+}
+
+.main-assets{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.scroll-down-wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    text-align: center;
+    margin-left: 47%;
+}
+
+.scroll-down{
+    text-align: center;
+    width: 100%;
+}
+
+
+.offerbanner{
+    background-color: #A0BA72;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.offer-heading{
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+    background: transparent;
+    color: black;
+    -webkit-text-fill-color: #A0BA72; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.beer-wrapper{
+    margin-bottom: 100px;
+}
+
+.beer-image{
+    width: 300px;
+    min-height: 300px;
+    /* border: solid 1px white; */
+    margin-bottom: 25px;
+}
+
+.beer-text{
+    /* border: 1px solid white; */
+    width: 300px;
+    text-align: center;
+}
+
+.beer-button{
+    padding: 15px 25px 15px 25px;
+    background-color: #A0BA72;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.beer-button:hover{
+    background-color: #E5C078;
+    color: white;
+}
+
+.beer-heading{
+    color: #E5C078;
+}
+
+.beer-description{
+    margin-bottom: 50px;
+}
+
+#beer1{
+    background-image: url('images/badhabits.png');
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15px;
+}
+
+#beer2{
+    background-image: url('images/jumbotron.png');
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15px;
+}
+
+#beer3{
+    background-image: url('images/sevendays.png');
+    background-position: center;
+    background-size: 100%;
+    border-radius: 15px;
+}
+
+/* badges */
+.as-seen-on{
+    color: #E5C078;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.trust-badges{
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.trust-badge-img{
+    width: 50vw;
+    background-image: url('images/badges-grouped.png');
+    background-size: 100%;
+    background-position: center;
+}
+
+.why-us-c2a-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.why-us-c2a{
+    padding: 15px 25px 15px 25px;
+    background-color: #A0BA72;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.why-us-c2a:hover{
+    background-color: #E5C078;
+    color: white;
+}
+
+footer{
+    background-color: #1f1f1f;
+    min-height: 30vh;
+    padding: 50px;
+}
+
+.footer-container{
+    /* border: solid white 1px; */
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-ul{
+    list-style: none;
+    margin: 25px;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-links:hover{
+    color: #A0BA72;
+}
+
+.line{
+    border: 1px solid white;
+    min-height: 100%;
+}
+
+.copyright{
+    color: rgb(163, 163, 163);
+    text-align: center;
+}
+

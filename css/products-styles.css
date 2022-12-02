@@ -1,0 +1,224 @@
+body{
+    background-color: #181818 !important;
+}
+
+.navbar{
+    background-color: #181818;
+    padding: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.yellow-hover:hover{
+    color: #E5C078 !important;
+
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+.contactbutton{
+    padding: 5px 15px 5px 15px !important;
+    background-color: #A0BA72;
+    border-radius: 10px;
+}
+
+.contactbutton:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #E5C078;
+}
+
+
+.contact{
+    margin-top: 5px !important;
+}
+
+.banner{
+    height: 100vh;
+    background-color: #A0BA72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainassets{
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+.product-page-heading{
+    color: #E5C078;
+}
+
+.product-page-heading{
+    margin-bottom: 30px;
+}
+
+/* Card Properties*/
+
+.productcard{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 650px;
+    background: #242424;
+    border-radius: 30px;
+    padding: 35px;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.card-contents{
+    padding: 0;
+}
+
+.productimg{
+    width: 100%;
+    height: 325px;
+    background-color: grey;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.cardheading{
+    color: #E5C078;
+}
+
+.card-p{
+    margin-bottom: 30px;
+}
+
+.product-button-wrapper{
+    margin-top: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.productbutton{
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    background-color: #A0BA72;
+    border-radius: 15px;
+}
+
+.productbutton:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #E5C078;
+}
+
+/* Card images */
+
+#product-image-1{
+    background-image: url("images/beerrrr.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+#product-image-2{
+    background-image: url("images/summersover.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+#product-image-3{
+    background-image: url("images/goodluck.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+#product-image-4{
+    background-image: url("images/badhabits.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+#product-image-5{
+    background-image: url("images/jumbotron.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+#product-image-6{
+    background-image: url("images/sevendays.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+footer{
+    background-color: #1f1f1f;
+    min-height: 30vh;
+    padding: 50px;
+    margin-top: 200px;
+
+}
+
+.footer-container{
+    /* border: solid white 1px; */
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-ul{
+    list-style: none;
+    margin: 25px;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-links:hover{
+    color: #A0BA72;
+}
+
+.line{
+    border: 1px solid white;
+    min-height: 100%;
+}
+
+.copyright{
+    color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+
+.popup{
+    background-color:#242424;
+    min-height: 50vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.1);
+    visibility: hidden;
+}
+
+.popup-image{
+    border: 1px solid white;
+    min-height: 350px;
+    width: 350px;
+}
+
+.close-button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: #A0BA72;
+    color: white;
+}
